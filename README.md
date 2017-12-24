@@ -2,7 +2,7 @@
 HPDF Task 1 : Twitter Clone App using React Native
 
 ## DEMO App (Android) 
-![DEMO](https://user-images.githubusercontent.com/17771352/34171502-87b1bab0-e514-11e7-9815-3210947150a6.gif)
+![DEMO](https://user-images.githubusercontent.com/17771352/34328945-cee861f0-e914-11e7-8eb2-405306e1fb51.gif)
 ## Install at local
 ### Open Terminal, then type command:
 
