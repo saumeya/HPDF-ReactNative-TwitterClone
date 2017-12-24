@@ -1,29 +1,12 @@
 import React, { Component } from 'react';
 import { Image, View } from 'react-native';
+
 import { Container, Header, Content,Item, Input, Icon, Button, Text, Left, Thumbnail, Body, Right,Card,CardItem,Fab } from 'native-base';
 
 export default class SearchBarExample extends Component {
   render() {
     return (
       <Container>
-        <Header style={{backgroundColor:'white'}} searchBar rounded>
-        <Left style={{flex:0.15}}>
-          <Button transparent
-            onPress={() => this.props.navigation.navigate("DrawerOpen")}>
-            <Thumbnail small source={require('../../img/petyr.jpg')} />
-          </Button>
-        </Left>
-        <Body style={{flex:0.75}}>
-          <Item style={{height:40, backgroundColor: 'lightgrey',marginLeft:0}} rounded>
-          <Input placeholder="Search Twitter"/>
-          </Item>
-        </Body>
-        <Right style={{flex:0.15}}>
-          <Button transparent>
-            <Icon style={{ color : 'deepskyblue'  }} name='person-add' ></Icon>
-          </Button>
-        </Right>
-      </Header>
       <Fab
           style={{ backgroundColor: 'deepskyblue' }}
           position="bottomRight" >

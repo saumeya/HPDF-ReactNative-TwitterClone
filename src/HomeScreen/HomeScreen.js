@@ -7,19 +7,6 @@ export default class HomeScreen extends React.Component {
      const { navigate } = this.props.navigation;
     return (
       <Container>
-        <Header style={{backgroundColor:'white'}}>
-          <Left>
-            <Button
-              transparent
-              onPress={() => this.props.navigation.navigate("DrawerOpen")}>
-                  <Thumbnail small source={require('../../img/petyr.jpg')} />
-            </Button>
-          </Left>
-          <Body>
-           <Title style={{color: 'black'}}>Home</Title>
-          </Body>
-         <Right />
-        </Header>
         <Fab
             style={{ backgroundColor: 'deepskyblue' }}
             position="bottomRight" >
